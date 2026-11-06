@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI, sans-serif;
+}
+
+body {
+    background: #fff4f7;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #ff4f8b;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.search-box {
+    flex: 1;
+    margin: 0 30px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-greeting {
+    color: white;
+    font-weight: 500;
+}
+
+.logout-btn {
+    background-color: #ff1461;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.logout-btn:hover {
+    background-color: #e0004d;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    color: #ff4f8b;
+}
+
+header p {
+    color: #666;
+}
+
+.gallery {
+    column-count: 3;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    break-inside: avoid;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card h3 {
+    padding: 15px;
+    color: #ff4f8b;
+}
